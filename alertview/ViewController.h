@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface ViewController : UIViewController
 
+- (IBAction)alertButton:(UIButton *)sender;
+- (IBAction)actionSheetButton:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UITextField *buttonPressedLable;
 
 @end
 
